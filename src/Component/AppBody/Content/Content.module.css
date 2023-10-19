@@ -1,0 +1,89 @@
+.contentHeader{
+     width: 99%;
+     margin: auto;
+     margin-top:1rem;
+     box-shadow: 1px 1px 1px 1px rgb(235, 238, 238);
+     background-color: rgb(236, 236, 222);
+     border-radius: 8px;
+     height: 9rem;
+}
+
+.task{
+    margin-top: 2.8rem;
+    margin-left: 5%;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top:2rem;
+    width: 95%;
+  }
+  
+ 
+  .search_box input{
+     font-size: 1.2rem;
+     border: none;
+     border-radius:z2px;
+     text-align: center;
+     box-shadow: 1px 1px 1px 1px rgb(214, 224, 224);
+     padding: 0.3rem;
+     background-color: rgb(228, 230, 232);
+  }
+
+  .date_picker{
+    display: flex;
+    width: 14rem;
+    justify-content: space-around;
+    padding: auto;
+    box-shadow: 1px 1px 1px 1px rgb(195, 186, 186);
+
+  } 
+  .date_picker input[type="date"] { 
+    width: 1.5rem;
+    padding: .1rem;
+    margin-top: 0.2rem;
+  }
+
+
+  .date_picker :nth-child(1){
+    width: 7rem;
+    padding: 0.4rem;
+  }
+  .date_picker :nth-child(2){
+    width: 7rem;
+    padding: 0.4rem;
+ 
+    
+}
+
+  .buttons {
+    display: flex;
+  }
+  
+  .apply_button,
+  .reset_button {
+    padding: 10px 20px;
+    color: rgb(55, 36, 159);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+  }
+  .apply_button{
+  background-color: #04095A;  
+  color: white;
+}
+  .apply_button:hover,
+  .reset_button:hover {
+    background-color: #0056b3;
+  }
+  

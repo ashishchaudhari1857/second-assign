@@ -1,0 +1,109 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  z-index: 100;
+  padding: 0.3rem;
+}
+.menu {
+  display: none;
+  color: rgb(28, 26, 26);
+}
+
+.header h2 {
+  color: rgb(226, 139, 139);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+.itemlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    color: rgb(89, 97, 92);
+  }
+
+  .profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .profile button {
+    width: 6.5rem;
+    font-size: 0.9rem;
+    margin: .5rem;
+    padding: .3rem;
+    border-radius: 8px;
+  }
+  .profile .icon{
+    font-size: 1.4rem;
+  }
+   .user{
+     border: 1px solid rgb(7, 7, 7);
+     border-radius: 50%;
+     padding: 0.5rem;
+     background-color: aquamarine;
+   }
+   
+  .itemlist li:hover {
+    color: rgb(233, 51, 233);
+    text-decoration: underline;
+  }
+
+  .mobileview {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 3;
+    margin-top: 3rem;
+    background-color: rgb(28, 21, 21);
+    width: 100%;
+    font-size: 1.2rem;
+    display: none;
+    padding: 2rem;
+    transition: all 1s;
+    color: #ffffff;
+  }
+
+  .mobileview li {
+    margin-top: 0.5rem;
+  }
+  .mobileview li:hover{
+    color: rgb(233, 51, 233);
+    
+  }
+
+@media (max-width: 1199px) {
+  .menu {
+    display: block;
+  }
+  .header {
+    justify-content: space-between;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    height: 3rem;
+  }
+   .itemlist {
+      display: none;
+    } 
+    .login {
+      display: none;
+    }
+  
+    .mobileview
+    {
+      display: block;
+    } 
+}

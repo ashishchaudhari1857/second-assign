@@ -1,0 +1,23 @@
+ .container{
+    display: flex;
+    gap:1rem;
+ }
+
+.AsideBar{
+    width: 23%;
+    background-color: #FFFFFF;
+    margin-top: 5rem;
+    height: 500px;
+    box-shadow: 2px 2px 2px #E8E8E8;
+    padding: 1.5rem;
+}
+
+.Content{
+    width: 78%;
+    background-color: rgb(253, 246, 246);
+    box-shadow: 2px 2px 2px #f8f5f5;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5rem;
+}

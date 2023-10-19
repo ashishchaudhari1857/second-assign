@@ -1,0 +1,26 @@
+.asidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin:auto ;
+}
+
+.asidebar h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.asidebar select{
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(130, 17, 130);
+    color: white;
+    border-radius: 8px;
+    padding: 0.7rem;
+}
+
+ .asidebar option{
+    background-color: white;
+    color: black;
+    box-shadow: 1p 1px rgb(200, 174, 174);
+ }
