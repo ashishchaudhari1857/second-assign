@@ -10,7 +10,9 @@ function App() {
   return (
     <>
         <Header></Header>
-<Routes>
+<Routes>\
+<Route path='/' element={<CompleteTask></CompleteTask>}></Route>
+
   <Route path='/' element={<AppBody></AppBody>}>
         <Route path='/complete' element={<CompleteTask></CompleteTask>}></Route>
         <Route path='/upcoming' element={<Upcoming></Upcoming>}></Route>
